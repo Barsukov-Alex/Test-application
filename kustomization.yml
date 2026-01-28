@@ -1,0 +1,5 @@
+namespace: application
+resources:
+- application-ns.yml
+- Nginx-DaemonSet.yml
+- Nginx-Service.yml
