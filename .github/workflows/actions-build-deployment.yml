@@ -26,7 +26,7 @@ jobs:
           username: ${{ secrets.USER_DOCKER_HUB }}
           password: ${{ secrets.MY_TOKEN_DOCKER_HUB }}
 
-      - name: v1.0.2
+      - name: latest
         run: |
           echo "GITHUB_REF: ${GITHUB_REF}"
           if [[ "${GITHUB_REF}" == refs/tags/* ]]; then
